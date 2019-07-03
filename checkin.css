@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#BBDEFB;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    font-family: sans-serif;
+    
+}
+
+h3{
+    margin-left: 70px;
+    padding: 0 0 20px;
+    text-align: left;
+    font-family: sans-serif;
+
+}
+
+.loginbox{
+    width: 340px;
+    height: 400px;
+    background:white;
+    color: black;
+    top:55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+    border-radius: 10px;
+    border: #1976D2 3px solid;
+   
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    left: calc(20% - 50px);
+    border-color: #1976D2;
+    
+}
+
+.loginbox p{
+    margin-bottom:10px;
+    padding: 0;
+    font weight:bold; 
+}
+
+.loginbox input{
+    border: none;
+    outline: none;
+    width:90%;
+    height: 30px;
+    border-radius: 0px;
+    color:black;
+    font-family: sans-serif;
+    font-size: 20px;
+
+
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 200px;
+    background: #1976D2;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top:40px;
+    margin-bottom:15px;
+    
+    
+}
+
+ul li{
+    color:white;
+}
+
+.loginbox input[type="fam"], input[type="book"], input[type="departure"]
+{
+    border:none;
+    border-bottom: .5px solid gray;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    padding: 10px 10px;
+}
+::placeholder{
+    color: rgba(103, 103, 110, 0.5);
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}

@@ -1,0 +1,80 @@
+body{
+    background-image:url(aeroplane-aircraft-airplane-1059608.jpg);
+    background-color: #BBDEFB;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center;
+    align-items:center;
+    text-align:center; */
+    padding:0 20px;
+    font-family: sans-serif;
+  }
+.loginbox{
+    width: 320px;
+    height: 450px;
+    background:rgba(0,0,0,0.300);
+    color: white;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 100px 30px;
+    border-radius: 10px;
+   
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    border-color: #1976D2;
+    
+}
+
+.loginbox p{
+    margin-bottom:10px;
+    padding: 0;
+    font weight:bold; 
+}
+
+.loginbox input{
+    border: none;
+    outline: none;
+    width:100%;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 200px;
+    background: #1976D2;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top:40px;
+    margin-bottom:15px;
+    
+    
+}
+.loginbox a{
+    font-size: 12px;
+    color: white;
+    font-weight: italic;
+    margin-top:20px;
+    
+}
+
+ul li{
+    color:white;
+}
